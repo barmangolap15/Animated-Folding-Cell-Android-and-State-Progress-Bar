@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/mainListView"
-    android:clipToPadding="false"
-    android:clipChildren="false"
-    android:divider="@android:color/transparent"
-    android:dividerHeight="10dp"
-    android:padding="16dp"
-    android:scrollbars="none"
-    android:background="@drawable/background"
-    tools:context=".MainActivity">
-</ListView>
+    tools:context=".MainActivity"
+    android:id="@+id/fragment_container">
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_nav_bar"
+        app:cnb_menuResource="@menu/bottom_navbar_chip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corners"
+        app:cnb_unselectedColor="@android:color/black"
+        app:cnb_radius="4dp"
+        app:cnb_iconSize="20dp"
+        app:cnb_orientationMode="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="8dp"/>
+
+</RelativeLayout>

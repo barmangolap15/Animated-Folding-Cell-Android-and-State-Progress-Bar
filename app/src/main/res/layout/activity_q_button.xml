@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbars="none"
+    tools:context=".qbuttons.QButtonActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:qb_backgroundColor="@color/colorAccent"
+            app:qb_radius="100" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Hello World!"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:qb_backgroundColor="@color/btnBlue2"
+            app:qb_radius="100" />
+
+        <com.manojbhadane.QButton
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 1"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/btnGreen"
+            app:qb_radius="100"
+            app:qb_strokeColor="@color/colorPrimaryDark"
+            app:qb_strokeWidth="0" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 2"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/btnGreen"
+            android:enabled="true"
+            app:qb_radius="100"
+            app:qb_strokeColor="@color/colorPrimary"
+            app:qb_strokeWidth="5" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 3"
+            android:enabled="false"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/btnGreen"
+            app:qb_radius="100"
+            app:qb_strokeColor="@color/colorPrimary"
+            app:qb_strokeDashGap="5"
+            app:qb_strokeDashWidth="90"
+            app:qb_strokeWidth="5" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 4"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/btnBlue2"
+            app:qb_radius="15"
+            app:qb_strokeColor="@color/btnBlue2"
+            app:qb_strokeWidth="0" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 5"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/btnBlue2"
+            app:qb_radius="15"
+            app:qb_strokeColor="@color/btnGreen"
+            app:qb_strokeWidth="5" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 6"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/btnBlue2"
+            app:qb_radius="15"
+            app:qb_strokeColor="@color/btnBlue2"
+            app:qb_strokeDashGap="5"
+            app:qb_strokeDashWidth="90"
+            app:qb_strokeWidth="5" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 7"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/color_1_dark"
+            app:qb_radius="35" />
+
+        <com.manojbhadane.QButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="QBUTTON 8"
+            android:textColor="@android:color/white"
+            app:qb_backgroundColor="@color/color_1_light"
+            app:qb_radius="45" />
+
+    </LinearLayout>
+
+</ScrollView>
